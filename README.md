@@ -1,13 +1,15 @@
 ## Naive Bayes Text Classification
 
-**Dataset**
+**Datasets**
 
 [AG-news dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
 
-**Results**
+[IMDb dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
 
-| Method | Accuracy |
-|--------|----------|
-| Using BOW | 0.851 |
-| Using TF-IDF | 0.807 |
-| Using Bigrams | 0.891 |
+**Results (Accuracy)**
+
+| Method | AG-news | IMDb |
+|--------|---------|------|
+| Using BOW | 0.851 | 0.703 |
+| Using TF-IDF | 0.807 | 0.621 |
+| Using Bigrams | 0.891 | 0.529 |
